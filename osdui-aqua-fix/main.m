@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
 
     CGDirectDisplayID currentDisplayId = [NSScreen.mainScreen.deviceDescription[@"NSScreenNumber"] unsignedIntValue];
     [OSDManager.sharedManager showImage:0 onDisplayID:currentDisplayId priority:0x1F4 msecUntilFade:100 withText:@"Fixed"];
+    while (system("pgrep OSDUIHelper > /dev/null") != 0) { usleep(100000); }
     usleep(500000);
 
     system("defaults write -g NSRequiresAquaSystemAppearance -bool YES > /dev/null");
