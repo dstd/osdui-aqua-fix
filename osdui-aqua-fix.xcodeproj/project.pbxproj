@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7CE1971325091A3C00ED37AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE1971225091A3C00ED37AA /* main.m */; };
+		7CE1971C25092E1200ED37AA /* OSD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE1971B25092E1200ED37AA /* OSD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		7CE1970F25091A3C00ED37AA /* osdui-aqua-fix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "osdui-aqua-fix"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE1971225091A3C00ED37AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CE1971B25092E1200ED37AA /* OSD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OSD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE1971C25092E1200ED37AA /* OSD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				7CE1971125091A3C00ED37AA /* osdui-aqua-fix */,
 				7CE1971025091A3C00ED37AA /* Products */,
+				7CE1971B25092E1200ED37AA /* OSD.framework */,
 			);
 			sourceTree = "<group>";
 		};
